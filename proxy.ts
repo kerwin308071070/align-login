@@ -13,7 +13,7 @@ export async function proxy(request: NextRequest) {
   const isAuthPath = authPaths.some(path => pathname.startsWith(path));
 
   // 获取token
-  const token = request.cookies.get('session')?.value;
+  const token = request.cookies.get('access-token')?.value;
 
   // 如果是API认证路由，直接通过
   if (pathname.startsWith('/api/auth/')) {
