@@ -10,7 +10,7 @@ const users = [
     email: 'demo@example.com',
     // 密码: demo123
     // password: '$2a$10$N9qo8uLOickgx2ZMRZoMye8u8J8RcBqR4nO9B6ZQ6Q2kS2VQbL6G6',
-    password: '$2b$10$e2t0Zzx0t/EpcEbb90dY2u7nGB5dakdzSBEI.XBeFsyXOTwLG7.A2',
+    password: '$2b$10$WzcGek3oQPlaBJOHH/wzwusmgh6BDqvzNCHxsF8JY7FMYDnKJwdj6',
     name: '演示用户',
     role: 'user',
   },
