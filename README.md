@@ -22,6 +22,11 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 
 
 ## About the homework
+
+### Login
+- Click on the "使用演示账户", then login.
+- If login fail, please run "node scripts/create-demo-user", then replace user.password in the "app/auth/login/routes" with the hash pwd generated
+
 ### JWT authorization
 - Used a mocked user to login, the password is encripted by hash provided by script>create-demo-user, which in real scenario should be looked up in database.
 - Then in the jwt.ts to create a jwt token to set back into the session with name 'access-token'.
@@ -30,6 +35,7 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 - Logout not well functioning
 - After login, can't go back to the login page if clicked logout.
 - Other potential bugs
+
 
 
 ## Learn More
